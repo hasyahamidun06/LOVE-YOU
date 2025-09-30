@@ -11,9 +11,13 @@
   border: 3px solid #fff;
   border-radius: 50%;
   font-size: 2em;
-  line-height: 58px;
-  text-align: center;
-  z-index: 999;
+    background: #000;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Arial, sans-serif;
 }
 #div_support {
   bottom: 80px;
@@ -725,3 +729,4 @@ body {
     transform: translateY(180px);
   }
 }
+
